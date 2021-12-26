@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for (int num = 5;num < 50;num++)
+		{
+			num = num*2;
+		
+			
+			if (num < 30)
+				System.out.println("Small number = " +num);
+			else 
+				System.out.println("Big number = " +num);
+		}
+	}
+
+}
