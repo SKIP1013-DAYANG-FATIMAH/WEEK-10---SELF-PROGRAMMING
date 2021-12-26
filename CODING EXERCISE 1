@@ -1,0 +1,30 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int marks;
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter your marks: ");
+		marks = sc.nextInt();
+		
+		switch (marks / 10)
+		{
+		case 9:
+			System.out.println("EXCELLENT");
+			break;
+		case 8:
+			System.out.println("VERY GOOD");
+			break;
+		
+		default:
+			System.out.println("BIGGEST DISSAPOINTMENT");
+		}
+	}
+
+}
