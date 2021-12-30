@@ -1,0 +1,25 @@
+package myArray;
+import java.util.Scanner;
+public class Ar1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name0, name1,name2,name3,name4;
+		 //String[] name= new name[5];
+        
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("Enter five customers : ");
+        
+        name0 = input.next();
+        name1 = input.next();     
+        name2 = input.next();
+        name3 = input.next();
+        name4 = input.next();
+        
+        System.out.println("The customer name in reverse order are: ");
+        System.out.println(name4 + " " + name3 + " " + name2 + " " + name1 + " " + name0);
+		
+	}
+
+}
